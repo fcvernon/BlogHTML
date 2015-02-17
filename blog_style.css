@@ -1,0 +1,59 @@
+header {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background: rgba(250,250,250,.9);
+padding: 0;
+border-bottom: 1px solid rgba(0,0,0,.1);
+}
+header h1, header h3 {
+	display: inline-block;
+}
+
+header h1 {
+	margin-left: 20px;
+	font-family: 'Droid Serif', serif;
+}
+header div {
+	float: right; 
+	margin-right: 10px; 
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 10px;
+}
+header a {
+	text-decoration: none;
+}
+header a:nth-child(2) h3 {
+	color: rgba(240, 78, 69, 0.62);
+	border: 1px solid rgba(240, 78, 69, 0.62);
+	padding: 12px;
+	border-radius: 300em;
+}
+header a:nth-child(1) h3 {
+	border: 1px solid;	
+	padding: 12px;
+	border-radius: 300em;
+	color: rgba(0,0,0,0.44);
+}
+
+header h3 {
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+#bodycontainer {
+	width: 800px;
+	margin: 75px auto; 
+}
+
+#psimage {
+	width:100%;
+}
+
+@media (max-width: 800px) {
+	#bodycontainer {
+		width: 90%;
+		margin: 100px 5%;
+	}
+}
