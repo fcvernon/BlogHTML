@@ -57,3 +57,9 @@ header h3 {
 		margin: 100px 5%;
 	}
 }
+
+@media (max-width: 480px) {
+	header a:nth-child(1) {
+		display: none;
+	}
+}
